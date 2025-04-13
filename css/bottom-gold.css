@@ -1,0 +1,95 @@
+.bottom-gold{
+    width: 100%;
+    height: 570px;
+    background-color: #E5ECEB;
+    display: flex;
+    flex-flow: column wrap;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    border-radius: 16px;
+    .bottom-gold-top{
+        width: 100%;
+        height: 60px;
+        font-family: Yekan;
+        font-size: 20px;
+        font-weight: bold;
+        color: #01494B;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        padding-right: 20px;
+        padding-top: 10px;
+    }
+    .bottom-gold-center{
+        margin-top: 10px;
+        width: 100%;
+        height: 418px;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        .bottom-gold-center-item{
+          padding-top: 20px;
+            width: 298px;
+            height: 100%;
+            background-color:#01494B;
+            border-radius: 16px;
+            .bottom-gold-center-item-top{
+                padding: 25px;
+                width: 100%;
+                height: 26px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 11px;
+           color: #fff;
+                font-family: Yekan;
+            }
+            .bottom-gold-center-item-center{
+                margin-top: 5px;
+                width: 100%;
+                height: 30px;
+                color: #fff;
+                font-size: 12px;
+                font-family: Yekan;
+                text-align: center;
+                display: flex;
+                justify-content: center;
+                margin-bottom: 15px
+                
+            }
+            .bottom-gold-center-item-bottom{
+                    width: 298px;
+                    height: 298px;
+                    display: flex;
+                    justify-content: center;
+                  
+                    }
+                
+            }
+            
+    }
+    .bottom-gold-bottom{
+        margin-top: 20px;
+        width: 100%;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .bottom-gold-bottom-background{
+            width: 180px;
+            height: 40px;
+            background-color: #01494B;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 8px;
+            a{
+                text-decoration: none;
+                font-family: Yekan;
+                color: #fff;
+                font-size: 12px;
+            }
+        }
+    }
+}
