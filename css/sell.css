@@ -1,0 +1,147 @@
+.sell {
+  width: 100%;
+  height: 404px;
+
+  display: flex;
+  justify-content: center;
+  padding-top: 5px;
+  .sell-width {
+    width: 97.5%;
+    height: 100%;
+
+    border-radius: 16px;
+    border: 1px solid lightgray;
+
+    .sell-title {
+      width: 100%;
+      height: 47px;
+      display: flex;
+      flex-flow: row wrap;
+      padding-top: 10px;
+
+      .sell-title-center {
+        padding-top: 16px;
+        width: 60%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        span {
+          font-family: Yekan;
+          color: #0c0c0c;
+          font-size: 20px;
+          padding-left: 22px;
+          padding-right: 3px;
+        }
+      }
+      .sell-title-left {
+        width: 40%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-end;
+
+        a {
+          padding-top: 16px;
+          padding-left: 15px;
+          text-decoration: none;
+          display: flex;
+          align-items: center;
+
+          span {
+            width: 77px;
+            height: 30px;
+            color: #55bfd3;
+            font-size: 14px;
+            font-family: Yekan;
+            text-align: center;
+          }
+        }
+      }
+    }
+
+    .swiper {
+      margin-top: 20px;
+      width: 100%;
+      height: 298px;
+    }
+
+    .swiper-slide {
+      margin-top: 8px;
+ 
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0 10px;
+      flex-flow: column wrap;
+      row-gap: 14px;
+      a {
+        text-decoration: none;
+      }
+      .my-slide-sell {
+        width: 100%;
+        height: 90px;
+        display: flex;
+
+        flex-flow: row wrap;
+        align-items: center;
+
+        .my-slide-sell-img {
+          width: 86px;
+          height: 86px;
+        }
+        .my-slide-sell-num {
+          width: 7px;
+          height: 86px;
+          color: #55bfd3;
+          font-family: var(--font-family-number);
+          font-weight: bold;
+          text-align: center;
+          font-size: 30px;
+          display: flex;
+          align-items: center;
+          margin-right: 5px;
+          margin-left: 32px;
+        }
+
+        .my-slide-sell-text {
+          width: 155px;
+          height: 80px;
+          font-family: Yekan;
+          text-align: right;
+          font-size: 12px;
+          color: #3f4064;
+          display: flex;
+          align-items: center;
+          line-height: 2;
+          p {
+            width: 100%;
+            text-align: right;
+            overflow: hidden;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            box-orient: vertical;
+            -webkit-line-clamp: 2;
+            line-clamp: 2;
+          }
+        }
+        .my-slide-sell-color {
+          width: 180px;
+          height: 1px;
+          background-color: #f0f0f1;
+          margin-right: 100px;
+          margin-top: 5px;
+        }
+      }
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}
